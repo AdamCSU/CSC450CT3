@@ -22,5 +22,18 @@ int main() {
 	*ptrB = b;
 	*ptrC = c;
 
+	cout << "\nContents stored in variables:" << endl;  //Display the contents of the variables and pointers
+	cout << "a = " << a << ", b = " << b << ", c = " << c << endl;
+
+	cout << "\nContents stored in memory using pointers: " << endl;
+	cout << "*ptrA = " << *ptrA << ", *ptrB = " << *ptrB << ", *ptrC = " << *ptrC << endl;
+
+	cout << "Memory addresses of contents stored via pointers:" << endl;
+	cout << "ptrA = " << ptrA << ", ptrB = " << ptrB << ", ptrC = " << ptrC << endl;
+
+
+
+
+
 	return 0;
 }
