@@ -28,7 +28,7 @@ int main() {
 	cout << "\nContents stored in memory using pointers: " << endl;
 	cout << "*ptrA = " << *ptrA << ", *ptrB = " << *ptrB << ", *ptrC = " << *ptrC << endl;
 
-	cout << "Memory addresses of contents stored via pointers:" << endl;
+	cout << "\nMemory addresses of contents stored via pointers:" << endl;
 	cout << "ptrA = " << ptrA << ", ptrB = " << ptrB << ", ptrC = " << ptrC << endl;
 
 	delete ptrA;  //Clear memory used by the pointers
