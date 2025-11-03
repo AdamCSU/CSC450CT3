@@ -10,6 +10,9 @@
 using namespace std;
 
 int main() {
+	int a, b, c;  //3 variables to store user input
+	cout << "Please enter three integers: ";  //Ask user to enter 3 integers
+	cin >> a >> b >> c;
 
 	return 0;
 }
