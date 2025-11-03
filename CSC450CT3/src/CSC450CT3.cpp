@@ -31,9 +31,11 @@ int main() {
 	cout << "Memory addresses of contents stored via pointers:" << endl;
 	cout << "ptrA = " << ptrA << ", ptrB = " << ptrB << ", ptrC = " << ptrC << endl;
 
+	delete ptrA;  //Clear memory used by the pointers
+	delete ptrB;
+	delete ptrC;
 
-
-
+	cout << "\nMemory used by the pointers has been cleared." << endl;
 
 	return 0;
 }
