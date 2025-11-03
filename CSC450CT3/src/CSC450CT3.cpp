@@ -14,5 +14,13 @@ int main() {
 	cout << "Please enter three integers: ";  //Ask user to enter 3 integers
 	cin >> a >> b >> c;
 
+	int* ptrA = new int;  //Create integer pointers to dynamically allocated memory
+	int* ptrB = new int;  //Ditto
+	int* ptrC = new int;  //Same as that guy ^
+
+	*ptrA = a;  //Store values in the dynamically allocated memory
+	*ptrB = b;
+	*ptrC = c;
+
 	return 0;
 }
